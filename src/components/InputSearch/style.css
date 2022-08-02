@@ -1,0 +1,38 @@
+header {
+  height: 261px;
+  background: transparent url("../../images/903ce82d065d12a760eeafe2aec9935a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  flex-flow: column;
+
+}
+
+.header-content {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search {
+  padding-left: 34px;
+  border-radius: 0.5rem;
+  height: 3.5rem;
+  width: 25%;
+  border-style: none;
+  font-size: larger;
+}
+
+.search-icon {
+  margin-left: -3.5rem;
+  cursor: pointer;
+}
+
+.input-search::placeholder {
+  padding-left: 2rem;
+  font-size: large;
+  font-family: "Muli";
+}
